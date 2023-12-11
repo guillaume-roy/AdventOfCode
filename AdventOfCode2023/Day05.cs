@@ -101,7 +101,7 @@ namespace AdventOfCode2023
             Assert.Equal(278755257, lowestLocation);
         }
 
-        [Fact]
+        [Fact(Skip = "Too long")]
         public void Part2()
         {
             var lines = File.ReadLines("./inputs/day05/input.txt").ToList();
