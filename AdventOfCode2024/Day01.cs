@@ -54,6 +54,6 @@ public class Day01
             result += rightCount * left;
         }
         
-        Assert.Equal(0, result);
+        Assert.Equal(22539317, result);
     }
 }
